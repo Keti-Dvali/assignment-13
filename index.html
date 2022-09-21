@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Keti Dvali's Portfolio">
+    <meta name="keywords" content="Portfolio, front-end-development, front-end, css, html">
+    <meta name="author" content="Keti Dvali">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Portfolio">
+    <meta property="og:description" content="Keti Dvali's Portfolio"/>
+    <meta property="og:url" content="keti-dvali.github.io/assignment-13/"/>
+    <link rel="stylesheet" href="static/styles/reset.css">
+    <link rel="stylesheet" href="static/styles/font.css">
+    <link rel="stylesheet" href="static/styles/style.css">
+    <title>Front-End Developer Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar flex container">
+            <a href="index.html"><div class="logo"></div></a>
+            <div class="nav-links">
+                <ol class="flex">
+                    <li><a href="#about-me">01. About</a></li>
+                    <li><a href="#work">02. Work</a></li>
+                    <li><a href="#experience">03. Experience</a></li>
+                    <li><a href="#contact">04. Contact</a></li>
+                </ol>
+            </div>
+            <div class="resume">
+                <a id="resume" href="static/cv/CV - Ketevan Dvali.pdf" download>RESUME</a> 
+            </div>
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>
+            </div>
+        </nav>
+        <div class="nav-links-2">
+            <ol class="flex">
+                <li><a href="#about-me">01. About</a></li>
+                <li><a href="#work">02. Work</a></li>
+                <li><a href="#experience">03. Experience</a></li>
+                <li><a href="#contact">04. Contact</a></li>
+            </ol>
+        </div>
+    </header>
+    <main>
+        <section class="section-1 container" id="about-me">
+            <div class="title flex">
+                <h2>01. About me</h2>            
+            </div>
+            <div class="about-section flex">
+                <div class="my-pic">
+                    <img src="static/images/photos/IMG_20220218_193552 (1).jpg" alt="my-pic">
+                </div>
+                <div class="second-div">
+                    <p>Hello,</p>
+                    <p>
+                        I am beginner Front-End developer. During studing 
+                        Front-End Development at Unilab We've worked on a 
+                        veriety of interesting projects and gained some 
+                        valuable knowledge in this field, I look forward to taking 
+                        my experience to the next level, learn programing Languages to
+                         make websites more interactive with delightful user experience. 
+                    </p>
+                    <button data-modal-target="#modal" class="work-together-button">Let's work together</button>
+                    <div class="modal" id="modal">
+                        <div>
+                            <form class="contact-form flex" action="#" method="get">
+                                <button data-close-button class="close-button">&times;</button>
+                                <h3 class="contact-me flex">Contact Me</h3>
+                                <label for="name">Name</label>
+                                <input type="text" required>
+                                <label for="Email">Email</label>
+                                <input type="email" required>
+                                <label for="message">Message</label>
+                                <textarea spellcheck="true" cols="10" rows="4" required></textarea>
+                                <input type="submit" value="Send Your Message">
+                            </form>
+                        </div>
+                    </div>
+                    <div id="overlay"></div>
+                </div>
+                <div class="icons flex"> 
+                    <a href="https://github.com/Keti-Dvali" target="_blank" ><img src="static/images/github.svg" alt="github-icon"></a>
+                    <img src="static/images/facebook.svg" alt="fb-icon">
+                    <a href="https://www.linkedin.com/in/ketevan-dvali-476208197/" target="_blank" ><img  src="static/images/linkedin.svg" alt="ln-icon"></a>
+                    <a href="https://www.instagram.com/dvaliketi/" target="_blank"><img src="static/images/instagram.svg" alt="insta-icon"> </a> 
+                </div>
+            </div>
+            <div class="vector flex">
+                <img src="static/images/chevron-down.svg" alt="vector">
+            </div>
+            <p class="say-hello flex">Say Hello</p>
+        </section>
+
+        <section class="section-2 container" id="work">
+            <div class="title flex">
+                <h2>02. work</h2>
+            </div>
+            <div class="work-grid">
+                <div>
+                    <img class="flex" src="static/images/photos/project-6.PNG.png" alt="project-pic">
+                    <a class="project-button" href="https://keti-dvali.github.io/assignment-6/" target="_blank"><button>See full Project</button></a> 
+                </div>
+                <div>
+                    <img class="flex"  src="static/images/photos/project-7.PNG.png" alt="project-pic">
+                    <a class="project-button " href="https://keti-dvali.github.io/assignment-7/" target="_blank"><button>See full Project</button></a> 
+                </div>
+                <div>
+                    <img class="flex" src="static/images/photos/project-8.PNG.png" alt="project-pic">
+                    <a class="project-button " href="https://keti-dvali.github.io/assignment-8/" target="_blank"><button>See full Project</button></a> 
+                </div>
+                <div>
+                    <img class="flex" src="static/images/photos/project-9.PNG.png" alt="project-pic">
+                    <a class="project-button " href="https://keti-dvali.github.io/assignment-9/" target="_blank"><button>See full Project</button></a> 
+                </div>
+                <div>
+                    <img class="flex" src="static/images/photos/project-10.PNG.png" alt="project-pic">
+                    <a class="project-button " href="https://keti-dvali.github.io/assignment-11/" target="_blank"><button>See full Project</button></a> 
+                </div>
+                <div>
+                    <img class="flex" src="static/images/photos/project-12.PNG.png" alt="project-pic">
+                    <a class="project-button " href="https://keti-dvali.github.io/assignment-12/" target="_blank"><button>See full Project</button></a> 
+                </div>
+            </div>
+                <div class="show-more-button flex">
+                     <a href="work.html"><button>Show more...</button></a>
+                </div>
+        </section>
+        <section class="section-3 container" id="experience">
+            <div class="title flex">
+                <h2>
+                    03. experience
+                </h2>
+            </div>
+            <div class="experience-description flex">
+                 <div>
+                    <div class="work-duration flex">
+                        June 2022 - Present
+                    </div>
+                    <div class="experience-title">
+                        Unilab Course
+                    </div>
+                    <div class="position-title">
+                        Front End Development
+                    </div>
+                </div>
+                <div>
+                    <ul class="job-description">
+                        <li>
+                            A front-end developer builds the front-end 
+                            portion of websites and web applications—that is, 
+                            the part that users actually see and interact with. 
+                            A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow 
+                            users to access and interact with.
+                        </li>
+                        <li>
+                            A front-end developer builds the front-end 
+                            portion of websites and web applications—that is, 
+                            the part that 
+                            users actually see and interact with. 
+                        </li>
+                    </ul>
+                    <a class="see-more" href="#"><p>See more...</p></a>  
+                </div>
+            </div>
+            <div class="experience-description flex">
+                <div>
+                   <div class="work-duration flex">
+                       June 2022 - Present
+                   </div>
+                   <div class="experience-title">
+                       Unilab Course
+                   </div>
+                   <div class="position-title">
+                       Front End Development
+                   </div>
+               </div>
+               <div>
+                   <ul class="job-description">
+                       <li>
+                           A front-end developer builds the front-end 
+                           portion of websites and web applications—that is, 
+                           the part that users actually see and interact with. 
+                           A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow 
+                           users to access and interact with.
+                       </li>
+                       <li>
+                           A front-end developer builds the front-end 
+                           portion of websites and web applications—that is, 
+                           the part that 
+                           users actually see and interact with. 
+                       </li>
+                   </ul>
+                   <a class="see-more" href="#"><p>See more...</p></a>  
+               </div>
+            </div>
+            <div class="show-more-button flex">
+                <a href="#resume"><button>Show more...</button></a>
+            </div>
+        </section>
+        <section class="section-4 container" id="contact">
+            <div class="title flex">
+                <h2>
+                    04. Contact
+                </h2>
+            </div>
+            <div class="sub-heading flex">
+                <h3>
+                    Interested in collaborating with me?
+                </h3>
+            </div>
+            <div class="sub-text flex">
+                <p>I'm always open to discussing product design work or partnership opportunities.</p>
+            </div>
+            <div class="flex contact__info">
+                <div class="contact-info">
+                    <ul>
+                        <li class="flex"><span><img src="static/images/phone-call.svg" alt="phone-icon"></span>+995 577 774 134<span></span></li>
+                        <li class="flex" ><span><img src="static/images/mail.svg" alt="mail-icon"></span>ketevan.dvali.15@gmail.com<span></span></li>
+                        <li><span><a href="https://github.com/Keti-Dvali" target="_blank" >
+                        <img src="static/images/github.svg" alt="github"></a></span><span><img src="static/images/facebook.svg" alt="fb-icon"></span><span><a href="https://www.linkedin.com/in/ketevan-dvali-476208197/" target="_blank">
+                        <img src="static/images/linkedin.svg" alt="ln-icon"></a></span><span><a href="https://www.instagram.com/dvaliketi/" target="_blank">
+                        <img src="static/images/instagram.svg" alt="instagram-icon"></a></span></li>
+                    </ul>
+                </div>
+                <div class="MacBook">
+                    <img src="static/images/MacBook-Pro-16.svg" alt="MacBook-Pro-16">
+                    <iframe src="https://keti-dvali.github.io/assignment-12/"></iframe>
+                </div>
+            </div>
+            <div class="show-more-button flex">
+                <a href="#"><button>Show more...</button></a>
+            </div>
+        </section>
+        
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="static/javascript/script.js"></script>
+</body>
+</html>
